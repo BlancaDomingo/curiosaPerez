@@ -1,0 +1,81 @@
+.event {
+    background-color:rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   bottom: 30px;
+    width: 93%;    
+  
+  
+  }
+  h2 {
+    font-family: 'handwrit', cursive;  
+    font-size:xx-large;
+    text-align: left;
+    color: rgb(1, 79, 84);
+   padding-top: 30px;
+    padding-left: 30px;
+     margin-left: 30px;  
+}
+
+    body > main > div > img {
+
+
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+     /*    display: block;  */
+       
+       
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+       
+        float: left;  
+       
+
+}
+    .buttonsWorkshop {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        background-color:white;
+        color: rgb(1, 79, 84);
+        font-family: 'typewrit', cursive;  
+        font-size: medium;
+        font-weight: bold;
+        margin-top: 70px;
+       }
+
+        .buttonsWorkshop a {
+            float: right;
+            display: block;
+            color:rgb(1, 79, 84);
+            text-align: center;
+            padding: 20px 40px;
+            text-decoration: none;
+            font-size: medium;
+            font-weight: bold;
+          }
+
+          .buttonsWorkshop a:hover {
+            background-color: rgb(1, 79, 84);
+            color: white;
+           }
+        
+        .buttonsWorkshop a:active {
+                    background-color: turquoise;
+                    color: white;
+                }
+              /*   .pBig {
+                    font-family: 'typewrit', cursive;  
+                    font-size: large;
+                    text-align: justify;
+                    color: rgb(1, 79, 84);
+                    width: 93%;
+                    margin-left: auto;
+                    margin-right: auto; 
+                    line-height: 1.5;
+                } */
+
+    

@@ -1,0 +1,119 @@
+
+form {
+    font-family: 'typewrit', cursive; 
+ 
+    font-size: medium;
+    color:rgb(1, 79, 84);
+    width: 85%;
+   
+
+}
+
+form div {
+    margin-bottom: 10px;
+    padding-top: 5px;
+   
+}
+ form div label {
+    padding-top: 5px;
+    padding-right: 5px;
+
+} 
+form div span {
+    padding-top: 5px;
+    padding-right: 5px;
+
+}
+
+form .inputlabel {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: right;
+}
+
+
+form select,
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+textarea {
+    background-color:rgba(255, 255, 255, 0.5);
+    font-family: 'typewrit', cursive;  
+    font-size: medium;
+ 
+    color:gray;
+
+    width: 40%;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+   
+}
+  
+input[type="text"]:focus {
+    background-color: white;
+ 
+}
+input[type="email"]:focus {
+    background-color: white;
+}
+input[type="tel"]:focus {
+    background-color: white;
+}
+
+textarea:focus {
+ background-color: white;
+    
+
+  }
+
+  form select,
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  textarea:valid {
+    color:rgb(1, 79, 84);
+
+} 
+
+
+
+form input[type="tel"]
+{
+    width: 20%; 
+}
+
+.send {
+    font-family: 'typewrit', cursive;  
+    font-size: large;
+    font-weight: bold;   
+    color:rgb(1, 79, 84);
+    padding: 10px;
+    border: none;
+}
+.send:hover {
+    background-color: rgb(1, 79, 84);
+    color: white;
+        
+    }
+  
+
+.terms {
+    color: rgb(1, 79, 84);
+    text-decoration: none;
+    font-weight: bold;
+}
+.terms:hover {    
+    color: white;
+   }
+
+
+form .submitContainer {
+    margin-left: 40%;
+}
+
+form .submitContainer span {
+    font-size: small;
+}
+

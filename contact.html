@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Curiosa Perez kreative Werkstatt - Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoDiv">
+            <a href="./index.html"><img src="./img/cpLogoUnderA400.gif" alt="Curiosa Perez kreative Werkstatt multicolor logo with old photo of dancing women"></a>
+            <a href="./index.html" class="logo"><img src="./img/cpLogoA400.gif"
+                    alt="Curiosa Perez kreative Werkstatt multicolor logo with old photo of dancing women"></a>
+
+
+        </div>
+        <div>
+            <div class="buttons">
+                <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram-square"></a>
+                <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-square"></a>
+                <a href="https://www.pinterest.com/" target="_blank" class="fab fa-pinterest-square"></a>
+            </div>
+            <div class="topNav">
+
+
+                <a href="./index.html">Home</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./workshops.html">Workshops</a>
+                <a href="#" id="active">Contact</a>
+                <a href="./about.html">About</a>
+
+                <input class="search" type="text" placeholder="Search...">
+
+
+            </div>
+    </header>
+    <main>
+        <br>
+        <br>
+
+        <img class="portada" src="./img/contact1.jpg" alt="cup of tea with a paper and a pen">
+        <br>
+        <h1>Contact me</h1>
+        <p> Let me know your questions and suggestions by filling out the contact below. Connect with me anytime to get
+            more information or for assistance on placing an order via email, chat, phone, or virtual consultation. </p>
+            <p>   I will get back to you as soon as possible. Thank you! </p>
+            <br>
+            <br>
+            <form action="">
+               
+                <div>
+                    <label class="inputlabel" for="fn">First Name</label>
+                    <input type="text" id="fn" name="firstName" minlength="2" maxlength="100" placeholder="First">
+                </div>
+                <div>
+                    <label class="inputlabel" for="ln">Last Name</label>
+                    <input type="text" id="ln" name="lastName" minlength="2" maxlength="100" placeholder="Last">
+                </div>
+                <div>
+                    <label class="inputlabel" for="em">Email *</label>
+                    <input type="email" name="e-mail" id="em" maxlength="100" minlength="5" placeholder="e.g. hello@email.com"
+                        required>
+                </div>
+                <div>
+                    <label class="inputlabel" for="ph">Phone</label>
+                    <input type="tel" name="Phone" id="ph" minlength="9" maxlength="14"
+                        placeholder="##############">
+                </div>
+                <div>
+                    <label class="inputlabel" for="ttl">Country</label>
+                    <select name="titleName" id="ttl">
+                 
+                        <option value="de">Germany</option>
+                        <option value="au">Austria</option>
+                        <option value="sw">Swiss</option>
+                        <option value="fr">France</option>
+                        <option value="en">England</option>
+                        <option value="es">Spain</option>
+                        <option value="us">USA</option>
+                        <option value="in">India</option>
+                        <option value="ma">Madagascar</option>
+                        <option disabled>------------</option>
+                        <option value="an">another Country</option>
+                    </select>
+                </div>
+                <div>
+                    <span class="inputlabel">Message subject</span>
+    
+                        <input type="radio" name="typeMsg" id="co" value="workshops" checked>
+                        <label for="co">Order</label>
+                        <input type="radio" name="typeMsg" id="qu" value="jewelry">
+                        <label for="qu">Workshop</label>
+                        <input type="radio" name="typeMsg" id="ot" value="other">
+                        <label for="ot">Other</label>
+                </div>
+                <div>
+                    <label class="inputlabel" for="msg">Message</label>
+                    <textarea name="message" id="msg" cols="22" rows="5" maxlength="5000"
+                        placeholder="Enter message"></textarea>
+                </div>
+                <div class="submitContainer">
+                    <div>
+                        <input type="checkbox" name="terms" id="tc" required>
+                        <label for="tc">Accept our <a class="terms" href="./terms.html" target="_blank">terms and conditions</a> *</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="mailList" id="ml" checked>
+                        <label for="ml">Subscribe to my mailing list</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="send" type="submit" value="Send">
+                    </div>
+                    <br>
+                    <span>Fields marked with an * are required</span>
+                </div>
+            </form>
+        <br>
+        <br>
+        <div>
+            <a class="goToTheTop" href="#">&#129045;</a>
+        </div>
+
+
+
+    </main>
+    <p class="design">Web design by mE mYself and I</p>
+    <br>
+    <br>
+</body>
+
+</html>

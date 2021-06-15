@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"typewrit" ;
+    src: url(../fonts/SpecialElite-Regular.ttf);
+}
+@font-face {
+    font-family:"handwrit" ;
+    src: url(../fonts/PrincessSofia-Regular.ttf)
+    }
+
+body {
+    background-color: rgb(135,162,145);
+    background-image: url(../img/blau.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;                        
+    background-attachment: fixed;
+}
+/* NAVIGATION */
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky; 
+  align-items: center;
+  width: 97%; 
+}
+
+
+.logoDiv {
+    position: relative;
+   
+} 
+
+.logo {
+   
+        position: absolute;
+         z-index: 1;
+         left:0px;
+    
+ }
+
+.logo:hover { 
+    display: none;
+ }
+
+
+
+
+.topNav {
+    overflow: hidden;
+    background-color:rgba(255, 255, 255, 0.5);
+    font-family: 'typewrit', cursive;  
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 85px;
+    
+  
+  }
+.topNav a {
+    float: left;
+    display: block;
+    color:rgb(1, 79, 84);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+  }
+.topNav a:hover, #active {
+    background-color: white;
+    color: rgb(1, 79, 84);
+   }
+
+.topNav a:active {
+            background-color:  rgb(1, 79, 84);
+            color: white;
+
+        }
+
+.topNav input[type=text] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 13px;
+            margin-left: 16px;
+            margin-right: 16px;
+            font-size: medium;
+          }
+   
+   
+
+/* END OF NAVIGATION */
+
+.search {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-family: 'typewrit', cursive; 
+    font-size: medium;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+main {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 93%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+h1{
+    font-family: 'handwrit', cursive;  
+    font-size:50px;
+    
+    text-align: center;
+    color: rgb(1, 79, 84);
+    padding-top: 20px;
+
+}
+h2{
+    font-family: 'handwrit', cursive;  
+    font-size:x-large;
+    text-align: center;
+    color: rgb(1, 79, 84);
+    padding-top: 20px;
+
+}
+p {
+    font-family: 'typewrit', cursive;  
+    font-size: medium;
+    text-align: justify;
+    color: rgb(1, 79, 84);
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 1.5;
+}
+.goToTheTop {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    font-family: 'typewrit', cursive; 
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(1, 79, 84);
+    margin: 25px;
+    padding: 25px;
+    bottom: 10px;
+    right: 7px; 
+    overflow: hidden;  
+    }
+
+    .buttons a:hover {
+        color:white;
+        font-size: 50px;
+
+    }
+    .fab {
+        font-size: 50px;
+        color: rgb(1, 79, 84);
+
+    }
+    .buttons {
+        float: right;
+    }
+    .design {
+        
+            font-family: 'typewrit', cursive; 
+            font-weight: bold;
+            font-size: small;
+            text-align: left;
+            color: rgb(1, 79, 84);
+            margin-top: 30px;
+            margin-left: 30px;
+           
+        }
+        .imgR {
+            width: 200px;
+         /*   height: 200px;
+            object-fit: cover; */
+          float:right; 
+           margin-left: 20px;
+           margin-top: 5px;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           margin-bottom: 5px;
+      }
+    
+
+   
+
+       
+       
+ 
